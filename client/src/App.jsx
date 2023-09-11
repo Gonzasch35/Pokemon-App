@@ -7,7 +7,7 @@ import Favorites from './components/Favorites/Favorites'
 import { useState } from 'react'
 import ErrorPage from './Views/ErrorPage/ErrorPage'
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://pokemon-app-production-636a.up.railway.app/'
 
 function App() {
   
