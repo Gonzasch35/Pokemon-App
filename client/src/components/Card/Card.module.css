@@ -1,0 +1,209 @@
+.cardContainer {
+    width: 300px;
+    height: fit-content;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('./fondo-card.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: .5em;
+    position: relative;
+    box-shadow: 0 0 10px #0000002f, 0 0 4px #00000070, 0 0 20px #00000070;
+}
+
+.favorite {
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: transparent;
+    scale: 1.5;
+}
+
+.image {
+    width: auto;
+    border-radius: 2em 2em 0 0;
+    filter: drop-shadow(8px 8px 8px #000000);
+}
+
+.name {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+}
+
+.link {
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.link:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.types h5 {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.on_closed {
+    border-radius: 0 .5em 0 10px;
+    position: absolute;
+    padding: .4em .8em;
+    top: 0%;
+    right: 0%;
+    color: #990e0e;
+    background-color: rgb(235, 235, 235);
+}
+
+.on_closed:hover {
+    background-color: rgba(121, 15, 15, 0.945);
+    color: white;
+    border: .5px solid white;
+}
+
+.buttons_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 0 0 .5em .5em;
+}
+
+
+
+/* ------------- Types Buttons ----------------- */
+
+.normal {
+    border: 1px solid transparent;
+    background-color: rgb(100, 100, 100);
+}
+
+.fighting {
+    border: 1px solid transparent;
+    background-color: rgb(77, 29, 29);
+}
+
+.flying {
+    border: 1px solid transparent;
+    background-color: rgb(69, 116, 177);
+}
+
+.poison {
+    border: 1px solid transparent;
+    background-color: rgb(105, 71, 133);
+}
+
+.ground {
+    border: 1px solid transparent;
+    background-color: rgb(77, 45, 35);
+}
+
+.rock {
+    border: 1px solid transparent;
+    background-color: rgb(68, 68, 68);
+}
+
+.bug {
+    border: 1px solid transparent;
+    background-color: rgb(143, 156, 85);
+}
+
+.ghost {
+    border: 1px solid transparent;
+    background-color: rgb(56, 50, 114);
+}
+
+.steel {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(182, 182, 182);
+}
+
+.fire {
+    border: 1px solid transparent;
+    background-color: rgb(133, 19, 16);
+}
+
+.water {
+    border: 1px solid transparent;
+    background-color: rgb(71, 160, 201);
+}
+
+.grass {
+    border: 1px solid transparent;
+    background-color: rgb(103, 126, 40);
+}
+
+.electric {
+    border: 1px solid transparent;
+    background-color: rgb(206, 185, 65);
+}
+
+.psychic {
+    border: 1px solid transparent;
+    background-color: rgb(156, 92, 124);
+}
+
+.ice {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(172, 222, 255);
+}
+
+.dragon {
+    border: 1px solid transparent;
+    background-color: rgb(77, 15, 0);
+}
+
+.dark {
+    border: 1px solid transparent;
+    background-color: rgb(0, 0, 0);
+}
+
+.fairy {
+    border: 1px solid transparent;
+    background-color: rgb(255, 160, 226);
+}
+
+.unknown {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.shadow {
+      border: 1px solid transparent;
+    background-color: rgb(109, 109, 109);
+}

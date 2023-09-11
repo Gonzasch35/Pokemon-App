@@ -1,0 +1,182 @@
+.detailContainer {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    min-width: 80em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+.detailContent {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(53, 53, 53, 0.507);
+    box-shadow: 0 0 90px #ffffff2f, 0 0 4px #ececec70, 0 0 20px #cacaca70;
+}
+
+@media (max-width: 1150px){
+    .detailContent{
+        flex-direction: column;
+    }
+}
+
+.back {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+  /* --------------detail----Fonts---------------  */
+.name {
+    margin: 0;
+    padding: .5em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.image {
+    margin: 0;
+    filter: drop-shadow(8px 8px 8px #8d7f7f);
+}
+
+.datos {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 0 2em;
+}
+
+.datos h3 {
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 10px;
+    text-decoration: underline;
+}
+.datos span {
+    font-weight: bolder;
+}
+.datos p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.normal {
+    border: 1px solid transparent;
+    background-color: rgb(100, 100, 100);
+}
+
+.fighting {
+    border: 1px solid transparent;
+    background-color: rgb(77, 29, 29);
+}
+
+.flying {
+    border: 1px solid transparent;
+    background-color: rgb(69, 116, 177);
+}
+
+.poison {
+    border: 1px solid transparent;
+    background-color: rgb(105, 71, 133);
+}
+
+.ground {
+    border: 1px solid transparent;
+    background-color: rgb(77, 45, 35);
+}
+
+.rock {
+    border: 1px solid transparent;
+    background-color: rgb(68, 68, 68);
+}
+
+.bug {
+    border: 1px solid transparent;
+    background-color: rgb(143, 156, 85);
+}
+
+.ghost {
+    border: 1px solid transparent;
+    background-color: rgb(56, 50, 114);
+}
+
+.steel {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(182, 182, 182);
+}
+
+.fire {
+    border: 1px solid transparent;
+    background-color: rgb(133, 19, 16);
+}
+
+.water {
+    border: 1px solid transparent;
+    background-color: rgb(71, 160, 201);
+}
+
+.grass {
+    border: 1px solid transparent;
+    background-color: rgb(103, 126, 40);
+}
+
+.electric {
+    border: 1px solid transparent;
+    background-color: rgb(206, 185, 65);
+}
+
+.psychic {
+    border: 1px solid transparent;
+    background-color: rgb(156, 92, 124);
+}
+
+.ice {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(172, 222, 255);
+}
+
+.dragon {
+    border: 1px solid transparent;
+    background-color: rgb(77, 15, 0);
+}
+
+.dark {
+    border: 1px solid transparent;
+    background-color: rgb(0, 0, 0);
+}
+
+.fairy {
+    border: 1px solid transparent;
+    background-color: rgb(255, 160, 226);
+}
+
+.unknown {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.shadow {
+      border: 1px solid transparent;
+    background-color: rgb(109, 109, 109);
+}

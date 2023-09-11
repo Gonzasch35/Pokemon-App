@@ -1,0 +1,30 @@
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.page_number {
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+.number {
+    padding: .5em 1em;
+    background-color: rgba(31, 31, 31, 0.39);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.number_active {
+    padding: .5em 1em;
+    background-color: rgba(17, 17, 17, 0.877);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}

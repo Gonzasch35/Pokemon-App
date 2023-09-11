@@ -1,0 +1,15 @@
+.home_container {
+    margin-top: 5.4em;
+
+
+}
+
+.searchBarContainer {
+    position: fixed;
+}
+
+.h2 {
+    margin: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

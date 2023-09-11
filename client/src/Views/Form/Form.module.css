@@ -1,0 +1,187 @@
+.formContainer {
+    width: 100%;
+    max-width: 55em;
+    min-height: 30em;
+    margin: 10em auto;
+    background-color: rgba(27, 27, 27, 0.719);
+    color: rgb(255, 255, 255);
+    border-radius: 0 9em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 0 10px #ffffff2f, 0 0 4px #ffffff70, 0 0 20px #eeeeee70;
+}
+
+.formDiv {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.label_input {
+    font-size: small;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_input input {
+    padding: 8px;
+    margin: 0px 20px;
+    background-color: #dbdbdb00;
+    border: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.errors {
+    color: #d11616;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.submit_button input {
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+    background-color: #78747e;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.submit_button input:hover {
+    background-color: #18327a;
+    border: 1px solid white;
+}
+
+/* ------------- Types Buttons ----------------- */
+
+.typesContainer {
+    margin: auto;
+    width: 47em;
+    padding: 1.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.typesContainer button {
+    text-transform: capitalize;
+    padding: .5em;
+    margin: 5px;
+}
+
+.normal {
+    border: 1px solid transparent;
+    background-color: rgb(100, 100, 100);
+}
+
+.fighting {
+    border: 1px solid transparent;
+    background-color: rgb(77, 29, 29);
+}
+
+.flying {
+    border: 1px solid transparent;
+    background-color: rgb(69, 116, 177);
+}
+
+.poison {
+    border: 1px solid transparent;
+    background-color: rgb(105, 71, 133);
+}
+
+.ground {
+    border: 1px solid transparent;
+    background-color: rgb(77, 45, 35);
+}
+
+.rock {
+    border: 1px solid transparent;
+    background-color: rgb(68, 68, 68);
+}
+
+.bug {
+    border: 1px solid transparent;
+    background-color: rgb(143, 156, 85);
+}
+
+.ghost {
+    border: 1px solid transparent;
+    background-color: rgb(56, 50, 114);
+}
+
+.steel {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(182, 182, 182);
+}
+
+.fire {
+    border: 1px solid transparent;
+    background-color: rgb(133, 19, 16);
+}
+
+.water {
+    border: 1px solid transparent;
+    background-color: rgb(71, 160, 201);
+}
+
+.grass {
+    border: 1px solid transparent;
+    background-color: rgb(103, 126, 40);
+}
+
+.electric {
+    border: 1px solid transparent;
+    background-color: rgb(206, 185, 65);
+}
+
+.psychic {
+    border: 1px solid transparent;
+    background-color: rgb(156, 92, 124);
+}
+
+.ice {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(172, 222, 255);
+}
+
+.dragon {
+    border: 1px solid transparent;
+    background-color: rgb(77, 15, 0);
+}
+
+.dark {
+    border: 1px solid transparent;
+    background-color: rgb(0, 0, 0);
+}
+
+.fairy {
+    border: 1px solid transparent;
+    background-color: rgb(255, 160, 226);
+}
+
+.unknown {
+    border: 1px solid transparent;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.shadow {
+      border: 1px solid transparent;
+    background-color: rgb(109, 109, 109);
+}
