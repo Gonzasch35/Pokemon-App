@@ -84,7 +84,7 @@ const Form = ({message, setMessage, newPokemon, setNewPokemon, editPokemon, setE
       }, 3000);
     } else if((!errors.name && !errors.hp && !errors.attack && !errors.defense) && Object.keys(editPokemon).length > 0){
       try {
-        await axios.put(`http://localhost:3001/pokemons/${newPokemon.id}`, newPokemon)
+        await axios.put(`https://pokemon-app-production-636a.up.railway.app/pokemons/${newPokemon.id}`, newPokemon)
         alert('Pokemon editado')
         setEditPokemon({})
         setNewPokemon({name: '', image:'', hp: 0, attack: 0, defense: 0, speed: 0, height: 0, weight: 0, types: []})
@@ -95,7 +95,7 @@ const Form = ({message, setMessage, newPokemon, setNewPokemon, editPokemon, setE
       }
     } else if((!errors.name && !errors.hp && !errors.attack && !errors.defense && !errors.types) && !editPokemon.length){
       try {
-        await axios.post('http://localhost:3001/pokemons', newPokemon)
+        await axios.post('https://pokemon-app-production-636a.up.railway.app/pokemons', newPokemon)
         alert('Pokemon creado')
         setNewPokemon({name: '', image:'', hp: 0, attack: 0, defense: 0, speed: 0, height: 0, weight: 0, types: []})
         setEditPokemon({})
