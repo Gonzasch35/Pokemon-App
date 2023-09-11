@@ -12,8 +12,8 @@ export const  DELETE_POKEMON = " DELETE_POKEMON"
 export const ADD_FAVORITE = 'ADD_FAVORITE'
 export const REMOVE_FAVORITE = 'REMOVE_FAVORITE'
 
-const URL_POKEMONS = 'http://localhost:3001/pokemons/'
-const URL_TYPES = 'http://localhost:3001/types/'
+const URL_POKEMONS = '/pokemons/'
+const URL_TYPES = '/types/'
 
 export const getPokemons = () => {
     return async function (dispatch) {

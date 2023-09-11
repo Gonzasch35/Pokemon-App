@@ -6,6 +6,8 @@ import About from './Views/About/About'
 import Favorites from './components/Favorites/Favorites'
 import { useState } from 'react'
 import ErrorPage from './Views/ErrorPage/ErrorPage'
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3001/'
 
 function App() {
   
